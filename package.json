@@ -1,0 +1,15 @@
+{
+  "name": "vite-ssr-esm-issue",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --ssr ./src/main.js"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.6"
+  },
+  "devDependencies": {
+    "vite": "^2.4.4"
+  }
+}
